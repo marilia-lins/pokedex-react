@@ -13,7 +13,7 @@ const PokeWrapper = styled.div`
     gap: 1em;
 
     h6{
-        color: lime;
+        color: ${p => p.theme.opositeColor};
     }
 `
 

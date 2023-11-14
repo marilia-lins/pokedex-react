@@ -117,6 +117,7 @@ const ProfileWrapper = styled.div`
       font-size: 1.2em;
       line-height: 1.5em;
     }
+    
   }
 
 
@@ -143,6 +144,21 @@ const ProfileWrapper = styled.div`
     .bottom p{
       font-size: 1em;
       line-height: 2em;
+    }
+  }
+
+  @media (max-width: 1280px){
+    .infos{
+      margin: 2em;
+      line-height: 1.5em;
+      padding-bottom: 0.2em;
+      font-size: 1.5em;
+    }
+    .stats{
+      margin: 2em;
+      line-height: 1.5em;
+      padding-bottom: 0.2em;
+      font-size: 1.5em;
     }
   }
 
